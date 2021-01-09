@@ -27,7 +27,7 @@ span {
 }
 
 body {
-    background: url('/assets/bg.png');
+    background: url('assets/bg.png');
     background-repeat: repeat-y;
     background-size: contain;
 }
@@ -173,7 +173,7 @@ body {
 /* slider */
 .slider {
     height: 85vh;
-    background-image: url('/assets/bg_img.png');
+    background-image: url('assets/bg_img.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
