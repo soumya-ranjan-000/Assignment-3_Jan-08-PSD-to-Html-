@@ -314,7 +314,7 @@ body {
 
 }
 
-.item  .icons {
+.item .icons {
     font-size: 4rem;
     display: flex;
     justify-content: center;
@@ -362,16 +362,18 @@ body {
 .item-1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.664) 0%, rgba(255, 255, 255, 0) 100%), url('https://images.unsplash.com/photo-1603891872286-5584e553623f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
 }
+
 .item-2 {
     background: url('https://images.unsplash.com/photo-1474962558142-9ca83af74bb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
     padding: 3rem;
 }
+
 .item-3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.329) 0%, rgba(255, 255, 255, 0.068) 100%), url('https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
 }
 
-.item-4{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.599) 0%, rgba(255, 255, 255, 0) 100%),url('https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80');
+.item-4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.599) 0%, rgba(255, 255, 255, 0) 100%), url('https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80');
 }
 
 .item-5 {
@@ -385,14 +387,16 @@ body {
 .item-7 {
     background: url('https://images.unsplash.com/photo-1521056787327-165dc2a32836?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80');
 }
+
 .item-8 {
     background: url('https://images.unsplash.com/photo-1541108564883-bec8126021f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');
 }
+
 .item-9 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.666) 0%, rgba(255, 255, 255, 0) 60%),url('https://images.unsplash.com/photo-1549216963-72c1712c1196?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8YmljeWNsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.666) 0%, rgba(255, 255, 255, 0) 60%), url('https://images.unsplash.com/photo-1549216963-72c1712c1196?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8YmljeWNsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
 }
 
-.item-10{
+.item-10 {
     background: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 }
 
@@ -454,37 +458,41 @@ body {
     padding: 2.5rem 2rem;
 }
 
-.item-3 .icons{
+.item-3 .icons {
     height: max-content;
     position: absolute;
     top: 0rem;
     right: 2rem;
 }
 
-.item-3 .fa-plus-circle{
+.item-3 .fa-plus-circle {
     background-color: #5077fb;
     color: #fff;
 }
-.item-3 .fa-file-alt{
+
+.item-3 .fa-file-alt {
     background-color: #fff;
     color: #5077fb;
 }
-.item-4 .content{
+
+.item-4 .content {
     height: max-content;
     bottom: 1.5rem;
     right: 1.5rem;
     align-items: end;
 }
-.item-4 .fa-plus-circle{
+
+.item-4 .fa-plus-circle {
     background-color: #5077fb;
     color: #fff;
 }
-.item-4 .fa-file-alt{
+
+.item-4 .fa-file-alt {
     background-color: #fff;
     color: #5077fb;
 }
 
-.item-5::before{
+.item-5::before {
     content: '';
     position: absolute;
     top: 0;
@@ -496,49 +504,54 @@ body {
     z-index: -1;
 
 }
-.item-5 .content{
+
+.item-5 .content {
     margin: 0 0;
     padding: 0 0;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
-  
+
 }
-.item-5 .icons{
+
+.item-5 .icons {
     position: absolute;
     top: 0;
     right: 2rem;
     z-index: 10;
 }
 
-.item-5 .fa-plus-circle{
+.item-5 .fa-plus-circle {
     color: #fff;
     background-color: transparent;
     border: solid 0.5px #fff;
 }
-.item-5 .fa-file-alt{
- 
+
+.item-5 .fa-file-alt {
+
     background-color: rgba(255, 255, 255, 0.142);
     border: solid 0.5px #fff;
 }
 
-.item-6 .content{
+.item-6 .content {
     width: 100%;
     height: 100%;
     background-color: #fff;
     justify-content: center;
     align-items: center;
 }
-.item-6 .content .title{
-   color: #5077fb;
-}
-.item-6 .content .sub-title{
-    color: #000000;
- }
- 
 
-.item-6 .icons{
+.item-6 .content .title {
+    color: #5077fb;
+}
+
+.item-6 .content .sub-title {
+    color: #000000;
+}
+
+
+.item-6 .icons {
     position: absolute;
     right: 2rem;
 }
@@ -552,23 +565,24 @@ body {
     padding: 2.5rem 2rem;
 }
 
-.item-7 .icons{
+.item-7 .icons {
     height: max-content;
     position: absolute;
     top: 0rem;
     right: 2rem;
 }
 
-.item-7 .fa-plus-circle{
+.item-7 .fa-plus-circle {
     background-color: #5077fb;
     color: #fff;
 }
-.item-7 .fa-file-alt{
+
+.item-7 .fa-file-alt {
     background-color: #fff;
     color: #5077fb;
 }
 
-.item-8 .content{
+.item-8 .content {
     width: 100%;
     height: 100%;
     background-color: rgba(47, 47, 47, 0.823);
@@ -577,21 +591,22 @@ body {
 }
 
 
-.item-8 .icons{
+.item-8 .icons {
     position: absolute;
     right: 2rem;
 }
 
-.item-8 .fa-plus-circle{
+.item-8 .fa-plus-circle {
     background-color: transparent;
-    border:solid 0.5px #fff;
+    border: solid 0.5px #fff;
 }
-.item-8 .fa-file-alt{
+
+.item-8 .fa-file-alt {
     background-color: #fff;
     color: #5077fb;
 }
 
-.item-9 .content{
+.item-9 .content {
     align-items: center;
     width: 100%;
     height: 100%;
@@ -600,16 +615,17 @@ body {
 }
 
 
-.item-9 .fa-plus-circle{
+.item-9 .fa-plus-circle {
     background-color: #5077fb;
     color: #fff;
 }
-.item-9 .fa-file-alt{
+
+.item-9 .fa-file-alt {
     background-color: #fff;
     color: #5077fb;
 }
 
-.item-10::before{
+.item-10::before {
     content: '';
     position: absolute;
     top: 0;
@@ -621,30 +637,33 @@ body {
     z-index: -1;
 
 }
-.item-10 .content{
+
+.item-10 .content {
     margin: 0 0;
     padding: 0 0;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
-  
+
 }
-.item-10 .icons{
+
+.item-10 .icons {
     position: absolute;
     top: 0;
     right: 2rem;
     z-index: 10;
 }
 
-.item-10 .fa-plus-circle{
+.item-10 .fa-plus-circle {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.142);
     border: solid 0.5px #fff;
 }
-.item-10 .fa-file-alt{
- 
-    
+
+.item-10 .fa-file-alt {
+
+
     border: solid 0.5px #fff;
     background-color: transparent;
 }
