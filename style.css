@@ -225,8 +225,9 @@ body {
     
 }
 .social .social-icons a:hover{
+    background-color: #fff;
     border: solid 0.1rem rgba(255, 255, 255, 0.199);
-    color: #fff;
+    color: #5077fb;
 }
 
 /* slider */
@@ -838,6 +839,9 @@ body {
     background-color: #5077fb;
     color: #fff;
 }
+.hover .post-info .author i{
+    color: #fff ;
+}
 .hover button{
     background-color: transparent;
     border: solid 1px #ffffff;
@@ -870,7 +874,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
-    grid-auto-rows: minmax(30vw,auto);
+    grid-auto-rows: minmax(20vw,auto);
     font-size: 4rem;
     margin: 0 0.5rem ;
 }
@@ -884,7 +888,7 @@ body {
 
 .offer-item .item-top{
     background-color: #fff;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .item-top .title{
@@ -900,8 +904,8 @@ body {
 .offer-item span{
     background-color: #5077fb;
     font-size: 5rem;
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     align-self: center;
    display: grid;
    place-items: center;
@@ -911,7 +915,7 @@ body {
 }
 .offer-item img{
     width: 100%;
-    height: 100%;
+    height: auto;
     grid-column-start: 1;
     grid-column-end: 3;
     object-fit: cover;
@@ -1058,10 +1062,15 @@ form h1{
     color: #fff;
     font-size: 1.8rem;
     padding: 0rem 2rem;
+    font-weight: 400;
 }
+.frm input:focus{
+   outline-color: #5077fb;
+   box-shadow:0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.459);
+}
+
 .frm input::placeholder{
     color: #fff;
-    opacity: 0.9;
 }
 
 .frm textarea{
@@ -1073,12 +1082,25 @@ form h1{
     resize: none;
     font-size: 1.8rem;
     padding: 2rem;
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
 }
-.frm textarea:placeholder-shown{
+
+.frm textarea:focus{
+    outline-color: #5077fb;
+    box-shadow:0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.459);
+ 
+}
+
+/* .frm textarea:placeholder-shown{
     color: rgb(255, 255, 255) !important;
     font-size: 2rem;
     opacity: 1 !important;
+    
+} */
+.frm textarea::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    opacity: 1;
     
 }
 .frm button{
@@ -1092,12 +1114,15 @@ form h1{
     font-size: 2rem;
     text-transform: uppercase;
 }
-
+.frm button:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+    color: #5077fb;
+}
 /* footer */
 .footer{
     height: 10rem;
-    background-color: #00000081;
-    margin: 0 0.5rem 0.5rem 0.5rem ;
+    background-color: #000000e1;
+    margin: 0 0.5rem 0rem 0.5rem ;
     display: grid;
     place-items: center;
 }
