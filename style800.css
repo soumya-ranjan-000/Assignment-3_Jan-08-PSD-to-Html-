@@ -77,9 +77,13 @@
   .items {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(50vw, auto);
+    
   }
 
+  .items .item {
+    /* height: 30vw; */
 
+}
   .item .content h2 {
     font-size: 2rem;
   }
@@ -182,34 +186,45 @@
   }
 
   .profile {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(auto, auto);
-    gap: 0.5rem;
-  }
-
-  /* .profile:nth-of-type(2) > .about-member{
-  grid-column-start: -1;
-  grid-column-end: 2;
-  align-self: center;
-  overflow: hidden;
+    display: flex;
+    background-color: #fff;
+    
+    flex-wrap: nowrap;
+    height: auto;
+    flex-basis: 50vw;
 }
-.profile:nth-of-type(2) > .profile-img{
-  grid-column-start: 2;
-  grid-column-end: 3;
- width: auto;
- overflow: hidden;
-} */
+  .profile-img {
+    object-fit: cover;
+    width: max-content;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 0rem;
+    padding-top: 3rem;
+    width: 50vw;
+    height: auto;
+    
+}
+.profile-img img {
+  height: 100%;
+  object-fit: cover;
+}
+.profile:nth-of-type(2){
+  flex-wrap: nowrap;
+}
   .about-member {
-    width: auto;
+    width: 50vw;
     padding: 3rem 3rem;
     justify-content: space-evenly;
     align-items: flex-start;
+    background-color: #e2e2e2;
   }
 
 
   .about-member p {
-    height: 25rem;
+    height: 30vw;
     width: auto;
+    width: 90%;
+    margin-bottom: 1rem;
 
   }
 
